@@ -87,7 +87,6 @@ void main() {
 
             Expanded(
               child: Container(
-                height: 700,
                 color: Colors.pink,
               )
             )
