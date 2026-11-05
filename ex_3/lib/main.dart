@@ -47,12 +47,20 @@ void main() {
                 decoration: BoxDecoration(
                   color: Colors.blue[600],
                   borderRadius: BorderRadius.circular(25),
+                  gradient: LinearGradient(colors: [
+                    Colors.blue[300],
+                    Colors.blue[600],
+                  ],
+                  begin: Alignment.centerLeft,
+                  end: Alignment.centerRight,
+                  )
                 ),
                 child: const Center(
                   child: Text(
                     'FLUTTER',
                     style: TextStyle(
                       color: Colors.white,
+                      
                     ),
                   ),
                 ),
